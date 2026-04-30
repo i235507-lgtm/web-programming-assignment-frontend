@@ -43,7 +43,6 @@ export default function Rankings() {
 
   return (
     <div className="space-y-6">
-      {/* Header + Period Selector — Interactive Feature #1 */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Expense Rankings</h1>
@@ -85,7 +84,6 @@ export default function Rankings() {
         </div>
       ) : (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {/* Category Rankings — Core Ranking Logic */}
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-5">
             <h2 className="font-semibold text-gray-800">Category Rankings</h2>
             <p className="text-xs text-gray-400 mb-4 mt-0.5">
@@ -128,7 +126,6 @@ export default function Rankings() {
             </div>
           </div>
 
-          {/* Top 10 Expenses by Amount */}
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-5">
             <h2 className="font-semibold text-gray-800">Top 10 Largest Expenses</h2>
             <p className="text-xs text-gray-400 mb-4 mt-0.5">
@@ -170,7 +167,6 @@ export default function Rankings() {
         </div>
       )}
 
-      {/* Insight Card */}
       {!loading && categoryRankings.length > 0 && (
         <div className="bg-gradient-to-r from-indigo-50 to-blue-50 rounded-xl border border-indigo-100 p-5">
           <h3 className="font-semibold text-indigo-800 mb-1">Spending Insight</h3>

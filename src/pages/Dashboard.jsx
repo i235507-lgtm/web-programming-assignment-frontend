@@ -94,7 +94,6 @@ export default function Dashboard() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Category Rankings Preview */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-5">
           <div className="flex items-center justify-between mb-4">
             <h2 className="font-semibold text-gray-800">Category Rankings</h2>
@@ -131,7 +130,6 @@ export default function Dashboard() {
           )}
         </div>
 
-        {/* Recent Expenses */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-5">
           <div className="flex items-center justify-between mb-4">
             <h2 className="font-semibold text-gray-800">Recent Expenses</h2>

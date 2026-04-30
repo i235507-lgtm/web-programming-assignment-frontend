@@ -104,7 +104,6 @@ export default function Expenses() {
         </button>
       </div>
 
-      {/* Add Expense Form */}
       {showForm && (
         <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-5">
           <h2 className="font-semibold text-gray-800 mb-4">New Expense</h2>
@@ -180,7 +179,6 @@ export default function Expenses() {
         </div>
       )}
 
-      {/* Filters — Interactive Feature #2 */}
       <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4">
         <div className="flex flex-wrap gap-4">
           <div>
